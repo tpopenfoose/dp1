@@ -1,0 +1,25 @@
+#navigation {
+  padding: 0;
+  margin: 0;
+  display: table;
+  list-style: none;
+  width: 100%;
+} 
+
+#navigation li {
+  display: table-cell;
+  text-align: center;
+} 
+
+#navigation li:first {
+  text-align: left;
+} 
+
+#navigation li:last {
+  text-align: right;
+}
+
+#navigation li a {
+  display: block;
+  padding: 10px 10px;
+}
